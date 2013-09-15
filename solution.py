@@ -35,7 +35,7 @@ if __name__ == "__main__":
 			print "That was not a valid list of functions"
 		else:
 			print apply_fcts(i,the_list)
-	# tests:
+	print "\nThe tests:"
 	print apply_fcts(4,[add_one, multiply_by_five])
 	print apply_fcts(7,[subtract_three, add_two, multiply_by_three])
 
